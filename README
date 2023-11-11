@@ -1,1 +1,8 @@
+This system was developed by Malek Y. Almallah and Prof. Belal H. Sababha at Princess Sumaya University for Technology.
 
+This is an FMCW radar-based human fall detection system, where the input is a sequence of 50 radar range-velocity heatmaps, and the output is a fall/non-fall label.
+Each range-velocity heatmap has a size of 128x128x1. Thus, the input to the system has a size of 128x128x1x50.
+This model was developed using MATLAB environment.
+
+The file "IntNet.m" contains the model code before training.
+The file "Pretrained_IntNet.mat" contains the model after being trained on the following dataset.
