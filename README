@@ -5,4 +5,4 @@ Each range-velocity heatmap has a size of 128x128x1. Thus, the input to the syst
 This model was developed using MATLAB environment.
 
 The file "IntNet.m" contains the model code before training.
-The file "Pretrained_IntNet.mat" contains the model after being trained on the following dataset.
+The file "Pretrained_IntNet.mat" contains the model after being trained.
